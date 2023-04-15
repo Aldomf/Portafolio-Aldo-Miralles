@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Aldo Miralles</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+             <a href="#">Aldo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="hideNave()">ACCUEIL</a></li>
+                    <li><a href="#aboutme" onclick="hideNave()">À PROPOS DE MOI</a></li>
+                    <li><a href="#skills" onclick="hideNave()">COMPÉTENCES</a></li>
+                    <li><a href="#curriculum" onclick="hideNave()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="hideNave()">PORTEFEUILLE</a></li>
+                    <li><a href="#contact" onclick="hideNave()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="responsive-nav" id="responsive-nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+    </header>
+    <!-- HOME SECTION -->
+    <section class="home-section" id="home">
+        <div class="container">
+            <div class="img">
+                <img src="img/imgremo.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>Aldo Miralles</h1>
+                <p>Développeur Web</p>
+            </div>
+            <div class="social-networks">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT ME SECTION -->
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="heading">
+                <h1>À PROPOS DE MOI</h1>
+                <h4><span>Bonjour, je suis Aldo Miralles.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque est reprehenderit qui enim temporibus id beatae iste aut suscipit aperiam officia, consequuntur soluta, minus autem maxime aspernatur officiis rerum commodi!</h4>
+            </div>
+            <div class="cols">
+                <div class="col-left">
+                    <h2>Informations Personnelles</h2>
+                    <ul>
+                        <li><strong>Anniversaire</strong> 18/04/2001</li>
+                        <li><strong>Téléphone</strong> +34 6 13 89 08 04</li>
+                        <li><strong>E-mail</strong> alditomiralles3@gmail.com</li>
+                        <li><strong>Adresse</strong> 19 Place du Béguinage, France</li>
+                        <li><strong>Poste</strong> <span>Étudiant</span></li>
+                    </ul>
+                </div>
+                <div class="col-right">
+                    <h2>Intérêts</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-gamepad"></i> JEUX</li>
+                        <li><i class="fa-solid fa-headphones"></i> MUSIQUE</li>
+                        <li><i class="fa-solid fa-plane"></i> VOYAGE</li>
+                        <li><i class="fa-sharp fa-solid fa-film"></i> FILMS</li>
+                        <li><i class="fa-solid fa-futbol"></i> FOOTBALL</li>
+                        <li><i class="fa-solid fa-dumbbell"></i> EXERCICE</li>
+                        <li><i class="fa-solid fa-code"></i> CODES</li>
+                        <li><i class="fa-solid fa-paw"></i> ANIMAUX</li>
+                    </ul>
+                </div>
+            </div>
+            <button>Télécharger CV <i class="fa-sharp fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1>COMPÉTENCES</h1>
+            <div class="cols">
+                <div class="col-left">
+                    <h2>Compétences techniques</h2>
+                    <div>
+                        <h4>HTML & CSS</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>JavaScript</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>React</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Figma</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>SQL</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h2>Compétences professionnelles</h2>
+                    <div>
+                        <h4>Communication</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Travail en équipe</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Créativité</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Dévouement</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Gestion de projet</h4>
+                        <div class="line">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CURRICULUM SECTION -->
+    <section class="curriculum" id="curriculum">
+        <div class="container">
+            <h1>CURRICULUM</h1>
+            <div class="subcontainer">
+                <div class="col-left column">
+                    <h3>Éducation</h3>
+                    <div class="education cols">
+                        <h6>Développeur Web et Mobile</h6>
+                        <h5>AFEC</h5>
+                        <span>2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A iste sit ullam sunt, explicabo, dolorem ab, non aliquam hic ex numquam deleniti consequuntur aliquid corrupti porro expedita sequi fugit magni.</p>
+                        <div class="lineleft">
+                            <div class="circuleleft"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right column">
+                    <h3>Experience de travail</h3>
+                    <div class="workExperience cols">
+                        <h6>Front Developer</h6>
+                        <h5>Entreprise</h5>
+                        <span>2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A iste sit ullam sunt, explicabo, dolorem ab, non aliquam hic ex numquam deleniti consequuntur aliquid corrupti porro expedita sequi fugit magni.</p>
+                        <div class="lineright">
+                            <div class="circuleright"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1>PORTEFEUILLE</h1>
+            <div class="subcontainer">
+                <div class="proyect">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Design Créatif</h3>
+                        <p>Photographie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>CONTACT</h1>
+            <div class="subcontainer">
+                <div class="col left">
+                    <form>
+                        <input type="text" placeholder="Nom">
+                        <input type="tel" placeholder="Numéro de Téléphone">
+                        <input type="email" placeholder="Adresse E-mail">
+                        <input type="text" placeholder="Sujet">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </form>
+                    <div class="button">
+                        <button>Envoyer<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button> 
+                    </div>
+                </div>
+                <div class="col right">
+                    <div class="map">
+                        <img src="img/ubicacion.png" alt="">
+                        <div class="frame">
+                            <span><i class="fa-solid fa-location-dot"></i> 19 Place du Béguinage, France</span>
+                            <span><i class="fa-solid fa-mobile-screen"></i> Contactez moi: 06 13 89 08 04</span>
+                            <span><i class="fa-solid fa-envelope"></i> E-mail: alditomiralles3@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="footer">
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="container">
+            <div class="social-networks">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- SUBFOOTER SECTION -->
+    <div class="subfooter">
+        <span>Aldo Portfolio 2023</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
