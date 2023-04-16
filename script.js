@@ -36,7 +36,7 @@ function skillAnimation() {
         progress[6].classList.add("teamwork");
         progress[7].classList.add("creativity");
         progress[8].classList.add("devotion");
-        progress[9].classList.add("proyect");
+        progress[9].classList.add("project");
     }
 }
 

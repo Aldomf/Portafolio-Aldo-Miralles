@@ -380,11 +380,11 @@ html {
     0% {width: 0%;}
     100% {width: 99%;}
 }
-.skills .container .cols .proyect {
+.skills .container .cols .project {
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s project forwards;
 }
-@keyframes proyect {
+@keyframes project {
     0% {width: 0%;}
     100% {width: 90%;}
 }
