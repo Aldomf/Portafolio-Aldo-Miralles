@@ -31,7 +31,7 @@ function skillAnimation() {
         progress[1].classList.add("javascript");
         progress[2].classList.add("react");
         progress[3].classList.add("figma");
-        progress[4].classList.add("sql");
+        progress[4].classList.add("nodejs");
         progress[5].classList.add("communication");
         progress[6].classList.add("teamwork");
         progress[7].classList.add("creativity");

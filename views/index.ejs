@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Portfolio Aldo Miralles</title>
 </head>
 <body>
@@ -42,9 +42,9 @@
             </div>
             <div class="social-networks">
                 <ul>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/aldo-miralles"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://bit.ly/AldoMiralles"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://discord.gg/yNbxGZdmxV"><i class="fa-brands fa-discord"></i></i></a></li>
                 </ul>
             </div>
         </div>
@@ -54,7 +54,10 @@
         <div class="container">
             <div class="heading">
                 <h1>À PROPOS DE MOI</h1>
-                <h4><span>Bonjour, je suis Aldo Miralles.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque est reprehenderit qui enim temporibus id beatae iste aut suscipit aperiam officia, consequuntur soluta, minus autem maxime aspernatur officiis rerum commodi!</h4>
+                <h4><span>Bonjour, je suis Aldo Miralles.</span> Je suis actuellement dans une formation de TP Développeur Web et Web Mobile à l’AFEC, à 
+                    Poissy. Je suis en recherche d’un stage de deux mois (Juillet-Août) pour acquérir plus de 
+                    compétences et développer celles que je possède déjà mais aussi faire l’expérience de cet 
+                    environnement de travail.</h4>
             </div>
             <div class="cols">
                 <div class="col-left">
@@ -113,7 +116,7 @@
                         <h4>React</h4>
                         <div class="line">
                             <div class="progress">
-                                <span>10%</span>
+                                <span>40%</span>
                             </div>
                         </div>
                     </div>
@@ -126,10 +129,10 @@
                         </div>
                     </div>
                     <div>
-                        <h4>SQL</h4>
+                        <h4>Nodejs</h4>
                         <div class="line">
                             <div class="progress">
-                                <span>10%</span>
+                                <span>60%</span>
                             </div>
                         </div>
                     </div>
@@ -191,19 +194,19 @@
                         <h6>Développeur Web et Mobile</h6>
                         <h5>AFEC</h5>
                         <span>2023</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A iste sit ullam sunt, explicabo, dolorem ab, non aliquam hic ex numquam deleniti consequuntur aliquid corrupti porro expedita sequi fugit magni.</p>
+                        <p> Cette formation m'a permis d'acquérir plus de connaissances sur FIGMA, HTML, CSS, JS, REACT, NODEJS, MONGODB, et GIT mais aussi à être autonome et à travailler en équipe.</p>
                         <div class="lineleft">
                             <div class="circuleleft"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-right column">
-                    <h3>Experience de travail</h3>
+                    <h3>Expérience de travail</h3>
                     <div class="workExperience cols">
-                        <h6>Front Developer</h6>
-                        <h5>Entreprise</h5>
-                        <span>2023</span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A iste sit ullam sunt, explicabo, dolorem ab, non aliquam hic ex numquam deleniti consequuntur aliquid corrupti porro expedita sequi fugit magni.</p>
+                        <h6>Aucune</h6>
+                        <h5></h5>
+                        <span></span>
+                        <p>Je n'ai pas encore d'expérience dans le monde du travail, mais je suis très motivé et prêt à commencer</p>
                         <div class="lineright">
                             <div class="circuleright"></div>
                         </div>
@@ -268,18 +271,18 @@
             <h1>CONTACT</h1>
             <div class="subcontainer">
                 <div class="col left">
-                    <form>
-                        <input type="text" placeholder="Nom">
-                        <input type="tel" placeholder="Numéro de Téléphone">
-                        <input type="email" placeholder="Adresse E-mail">
-                        <input type="text" placeholder="Sujet">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <form action="/" method="POST">
+                        <input type="text" placeholder="Nom" name="name" required pattern="[a-zA-Z]+">
+                        <input type="tel" placeholder="Numéro de Téléphone" name="phone" required pattern="[0-9]+">
+                        <input type="email" placeholder="Adresse E-mail" name="email" required>
+                        <input type="text" placeholder="Sujet" name="subject">
+                        <textarea  id="" cols="30" rows="10" name="comment" required></textarea>
+                        <div class="button">
+                            <button type="submit">Envoyer<i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button> 
+                        </div>
                     </form>
-                    <div class="button">
-                        <button>Envoyer<i class="fa-solid fa-paper-plane"></i>
-                            <span class="overlay"></span>
-                        </button> 
-                    </div>
                 </div>
                 <div class="col right">
                     <div class="map">
@@ -302,9 +305,9 @@
         <div class="container">
             <div class="social-networks">
                 <ul>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/aldo-miralles"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://bit.ly/AldoMiralles"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://discord.gg/yNbxGZdmxV"><i class="fa-brands fa-discord"></i></i></a></li>
                 </ul>
             </div>
         </div>
@@ -313,6 +316,6 @@
     <div class="subfooter">
         <span>Aldo Portfolio 2023</span>
     </div>
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>

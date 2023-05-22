@@ -60,7 +60,7 @@ html {
 /* HOME SECTION */
 .home-section {
     width: 100%;
-    background-image: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(img/fondo.jpg);
+    background-image: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(../img/fondo.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -330,7 +330,7 @@ html {
 }
 @keyframes react {
     0% {width: 0%;}
-    100% {width: 10%;}
+    100% {width: 40%;}
 }
 .skills .container .cols .figma {
     width: 0%;
@@ -340,13 +340,13 @@ html {
     0% {width: 0%;}
     100% {width: 50%;}
 }
-.skills .container .cols .sql {
+.skills .container .cols .nodejs {
     width: 0%;
-    animation: 2s sql forwards;
+    animation: 2s nodejs forwards;
 }
-@keyframes sql {
+@keyframes nodejs {
     0% {width: 0%;}
-    100% {width: 10%;}
+    100% {width: 60%;}
 }
 .skills .container .cols .communication {
     width: 0%;
@@ -551,7 +551,7 @@ html {
     background-color: rgb(30, 35, 38);
     color: rgb(255, 255, 255);
     padding: 50px 20px;
-    background-image: url(img/contact_bg.png);
+    background-image: url(../img/contact_bg.png);
     background-size: cover;
 }
 .contact .container {
