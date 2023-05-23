@@ -103,7 +103,7 @@ html {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 220px;
 }
 .home-section .container .social-networks ul li a {
     display: flex;
@@ -513,12 +513,17 @@ html {
 .portfolio .container .subcontainer .proyect {
     position: relative;
     max-width: 340px;
-    height: fit-content;
     margin: 10px;
     cursor: pointer;
+    height: 256px;
+}
+.portfolio .container .subcontainer .proyect a {
+    text-decoration: none;
+    color: #fff;
 }
 .portfolio .container .subcontainer .proyect img {
     width: 100%;
+    height: 100%;
     display: block;
 }
 .portfolio .container .subcontainer .proyect .overlay {
@@ -678,7 +683,7 @@ html {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 220px;
 }
 .footer .container {
     display: flex;
@@ -802,6 +807,7 @@ html {
     }
     .portfolio .container .subcontainer .proyect {
         max-width: 100%;
+        height: fit-content;
     }
     .portfolio .container .subcontainer .proyect img {
         width: 100%;
