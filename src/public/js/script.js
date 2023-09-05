@@ -30,7 +30,7 @@ function skillAnimation() {
         progress[0].classList.add("htmlcss");
         progress[1].classList.add("javascript");
         progress[2].classList.add("react");
-        progress[3].classList.add("figma");
+        progress[3].classList.add("mongoDb");
         progress[4].classList.add("nodejs");
         progress[5].classList.add("communication");
         progress[6].classList.add("teamwork");
