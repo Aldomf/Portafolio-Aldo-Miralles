@@ -1,344 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Portfolio Aldo Miralles</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- HEADER SECTION -->
     <header class="header">
-        <section class="container">
-            <div class="logo">
-             <a href="#">Aldo</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#home" onclick="hideNave()">ACCUEIL</a></li>
-                    <li><a href="#aboutme" onclick="hideNave()">À PROPOS DE MOI</a></li>
-                    <li><a href="#skills" onclick="hideNave()">COMPÉTENCES</a></li>
-                    <li><a href="#curriculum" onclick="hideNave()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="hideNave()">PORTEFEUILLE</a></li>
-                    <li><a href="#contact" onclick="hideNave()">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="responsive-nav" id="responsive-nav">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </section>
+      <section class="container">
+        <div class="logo">
+          <a href="#">Aldo</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="hideNave()">ACCUEIL</a></li>
+            <li><a href="#aboutme" onclick="hideNave()">À PROPOS DE MOI</a></li>
+            <li><a href="#skills" onclick="hideNave()">COMPÉTENCES</a></li>
+            <li><a href="#curriculum" onclick="hideNave()">CURRICULUM</a></li>
+            <li><a href="#portfolio" onclick="hideNave()">PORTEFEUILLE</a></li>
+            <li><a href="#contact" onclick="hideNave()">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="responsive-nav" id="responsive-nav">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </section>
     </header>
     <!-- HOME SECTION -->
     <section class="home-section" id="home">
-        <div class="container">
-            <div class="img">
-                <img src="img/imgremo.jpg" alt="">
-            </div>
-            <div class="heading">
-                <h1>Aldo Miralles</h1>
-                <p>Développeur Web</p>
-            </div>
-            <div class="social-networks">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/aldo-miralles"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://bit.ly/AldoMiralles"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="https://discord.gg/yNbxGZdmxV"><i class="fa-brands fa-discord"></i></a></li>
-                    <li><a href="mailto:alditomiralles3@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="img">
+          <img src="img/imgremo.jpg" alt="" />
         </div>
+        <div class="heading">
+          <h1>Aldo Miralles</h1>
+          <p>Développeur Web</p>
+        </div>
+        <div class="social-networks">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/aldo-miralles"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://bit.ly/AldoMiralles"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://discord.gg/yNbxGZdmxV"
+                ><i class="fa-brands fa-discord"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:alditomiralles3@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <!-- ABOUT ME SECTION -->
     <section class="aboutme" id="aboutme">
-        <div class="container">
-            <div class="heading">
-                <h1>À PROPOS DE MOI</h1>
-                <h4><span>Bonjour, je suis Aldo Miralles.</span> Je suis actuellement dans une formation de TP Développeur Web et Web Mobile à l’AFEC
-                    (BAC + 2), à Poissy. Je suis en recherche d’un poste de travail junior où je pourrai apporter
-                    toutes mes connaissances et continuer à les développer. Parmi mes qualités je suis quelqu’un
-                    de persévérant, rigoureux, autonome et polyvalent. Parmi mes défauts je
-                    suis parfois trop perfectionniste, mais je cherche à équilibrer ce défaut. J’ai des compétences
-                    techniques sur HTML, CSS, TailwindCSS, JavaScript, React, Nextjs, Nodejs, MongoDB, et
-                    GIT</h4>
-            </div>
-            <div class="cols">
-                <div class="col-left">
-                    <h2>Informations Personnelles</h2>
-                    <ul>
-                        <li><strong>Anniversaire</strong> 18/04/2001</li>
-                        <li><strong>Téléphone</strong> +34 6 13 89 08 04</li>
-                        <li><strong>E-mail</strong> alditomiralles3@gmail.com</li>
-                        <li><strong>Adresse</strong> 19 Place du Béguinage, France</li>
-                        <li><strong>Poste</strong> <span>Étudiant</span></li>
-                    </ul>
-                </div>
-                <div class="col-right">
-                    <h2>Intérêts</h2>
-                    <ul>
-                        <li><i class="fa-solid fa-gamepad"></i> JEUX</li>
-                        <li><i class="fa-solid fa-headphones"></i> MUSIQUE</li>
-                        <li><i class="fa-solid fa-plane"></i> VOYAGE</li>
-                        <li><i class="fa-sharp fa-solid fa-film"></i> FILMS</li>
-                        <li><i class="fa-solid fa-futbol"></i> FOOTBALL</li>
-                        <li><i class="fa-solid fa-dumbbell"></i> EXERCICE</li>
-                        <li><i class="fa-solid fa-code"></i> CODES</li>
-                        <li><i class="fa-solid fa-paw"></i> ANIMAUX</li>
-                    </ul>
-                </div>
-            </div>
-            <button>Télécharger CV <i class="fa-sharp fa-solid fa-download"></i>
-                    <span class="overlay"></span>
-            </button>
+      <div class="container">
+        <div class="heading">
+          <h1>À PROPOS DE MOI</h1>
+          <h4>
+            <span>Bonjour, je suis Aldo Miralles.</span> Je suis actuellement
+            dans une formation de TP Développeur Web et Web Mobile à l’AFEC (BAC
+            + 2), à Poissy. Je suis en recherche d’un poste de travail junior où
+            je pourrai apporter toutes mes connaissances et continuer à les
+            développer. Parmi mes qualités je suis quelqu’un de persévérant,
+            rigoureux, autonome et polyvalent. Parmi mes défauts je suis parfois
+            trop perfectionniste, mais je cherche à équilibrer ce défaut. J’ai
+            des compétences techniques sur HTML, CSS, TailwindCSS, JavaScript,
+            React, Nextjs, Nodejs, MongoDB, et GIT
+          </h4>
         </div>
+        <div class="cols">
+          <div class="col-left">
+            <h2>Informations Personnelles</h2>
+            <ul>
+              <li><strong>Anniversaire</strong> 18/04/2001</li>
+              <li><strong>Téléphone</strong> +34 6 13 89 08 04</li>
+              <li><strong>E-mail</strong> alditomiralles3@gmail.com</li>
+              <li><strong>Adresse</strong> 19 Place du Béguinage, France</li>
+              <li><strong>Poste</strong> <span>Étudiant</span></li>
+            </ul>
+          </div>
+          <div class="col-right">
+            <h2>Intérêts</h2>
+            <ul>
+              <li><i class="fa-solid fa-gamepad"></i> JEUX</li>
+              <li><i class="fa-solid fa-headphones"></i> MUSIQUE</li>
+              <li><i class="fa-solid fa-plane"></i> VOYAGE</li>
+              <li><i class="fa-sharp fa-solid fa-film"></i> FILMS</li>
+              <li><i class="fa-solid fa-futbol"></i> FOOTBALL</li>
+              <li><i class="fa-solid fa-dumbbell"></i> EXERCICE</li>
+              <li><i class="fa-solid fa-code"></i> CODES</li>
+              <li><i class="fa-solid fa-paw"></i> ANIMAUX</li>
+            </ul>
+          </div>
+        </div>
+        <button>
+          Télécharger CV <i class="fa-sharp fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
     </section>
     <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
-        <div class="container">
-            <h1>COMPÉTENCES</h1>
-            <div class="cols">
-                <div class="col-left">
-                    <h2>Compétences techniques</h2>
-                    <div>
-                        <h4>HTML & CSS</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>JavaScript</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>60%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>React</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>MongoDB</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>Nodejs</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h1>COMPÉTENCES</h1>
+        <div class="cols">
+          <div class="col-left">
+            <h2>Compétences techniques</h2>
+            <div>
+              <h4>HTML & CSS</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>90%</span>
                 </div>
-                <div class="col-right">
-                    <h2>Compétences professionnelles</h2>
-                    <div>
-                        <h4>Communication</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>Travail en équipe</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>Créativité</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>60%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>Dévouement</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>99%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h4>Gestion de projet</h4>
-                        <div class="line">
-                            <div class="progress">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div>
+              <h4>JavaScript</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>React</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>MongoDB</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>Nodejs</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-right">
+            <h2>Compétences professionnelles</h2>
+            <div>
+              <h4>Communication</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>Travail en équipe</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>Créativité</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>Dévouement</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>99%</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4>Gestion de projet</h4>
+              <div class="line">
+                <div class="progress">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- CURRICULUM SECTION -->
     <section class="curriculum" id="curriculum">
-        <div class="container">
-            <h1>CURRICULUM</h1>
-            <div class="subcontainer">
-                <div class="col-left column">
-                    <h3>Éducation</h3>
-                    <div class="education cols">
-                        <h6>Informatique</h6>
-                        <h5>Université Ignacio Agramonte</h5>
-                        <span>05/09/19 - 27/01/22
-                        </span>
-                        <p> J'ai appris les bases de la programmation, y compris des langages de programmation comme Java, Python, C++, etc. J'ai acquis des compétences en résolution de problèmes algorithmiques et en développement de logiciels.</p>
-                        <div class="lineleft">
-                            <div class="circuleleft"></div>
-                        </div>
-                    </div>
-                    <div class="education cols">
-                        <h6>Développeur Web et Mobile</h6>
-                        <h5>AFEC (BAC +2)</h5>
-                        <span>20/02/23 - 25/09/23</span>
-                        <p> Cette formation m'a permis d'acquérir plus des compétences techniques sur HTML, CSS, JS, REACT, NODEJS, MONGODB, et GIT mais aussi à être autonome et à travailler en équipe.</p>
-                        <div class="lineleft">
-                            <div class="circuleleft"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-right column">
-                    <h3>Expérience de travail</h3>
-                    <div class="workExperience cols">
-                        <h6>Stage Développeur Web Fullstack Nextjs</h6>
-                        <h5>GOMAKEAPPS Paris</h5>
-                        <span>03/07/23 - 31/08/23</span>
-                        <p>Au cours de ce stage, j’ai amélioré mes compétences techniques telles que nextjs, tailwindcss, nodejs, mongodb, express et git. J’ai aussi eu l’occasion de travailler en équipe et d’être dans un environnement de travail réel.</p>
-                        <div class="lineright">
-                            <div class="circuleright"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1>CURRICULUM</h1>
+        <div class="subcontainer">
+          <div class="col-left column">
+            <h3>Éducation</h3>
+            <div class="education cols">
+              <h6>Informatique</h6>
+              <h5>Université Ignacio Agramonte</h5>
+              <span>05/09/19 - 27/01/22 </span>
+              <p>
+                J'ai appris les bases de la programmation, y compris des
+                langages de programmation comme Java, Python, C++, etc. J'ai
+                acquis des compétences en résolution de problèmes algorithmiques
+                et en développement de logiciels.
+              </p>
+              <div class="lineleft">
+                <div class="circuleleft"></div>
+              </div>
             </div>
+            <div class="education cols">
+              <h6>Développeur Web et Mobile</h6>
+              <h5>AFEC (BAC +2)</h5>
+              <span>20/02/23 - 25/09/23</span>
+              <p>
+                Cette formation m'a permis d'acquérir plus des compétences
+                techniques sur HTML, CSS, JS, REACT, NODEJS, MONGODB, et GIT
+                mais aussi à être autonome et à travailler en équipe.
+              </p>
+              <div class="lineleft">
+                <div class="circuleleft"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-right column">
+            <h3>Expérience de travail</h3>
+            <div class="workExperience cols">
+              <h6>Stage Développeur Web Fullstack Nextjs</h6>
+              <h5>GOMAKEAPPS Paris</h5>
+              <span>03/07/23 - 31/08/23</span>
+              <p>
+                Au cours de ce stage, j’ai amélioré mes compétences techniques
+                telles que nextjs, tailwindcss, nodejs, mongodb, express et git.
+                J’ai aussi eu l’occasion de travailler en équipe et d’être dans
+                un environnement de travail réel.
+              </p>
+              <div class="lineright">
+                <div class="circuleright"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- PORTFOLIO SECTION -->
     <section class="portfolio" id="portfolio">
-        <div class="container">
-            <h1>PORTEFEUILLE</h1>
-            <div class="subcontainer">
-                <div class="proyect one">
-                    <a href="https://aldomf.github.io/My-first-e-commerce-site/">
-                        <img src="img/p1.jpg" alt="">
-                        <div class="overlay">
-                            <h3>E-commerce site</h3>
-                            <p>Frontend</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyect">
-                    <a href="https://aldomf.github.io/quiz-app/">
-                        <img src="img/p2.png" alt="">
-                        <div class="overlay">
-                            <h3>Quiz Game</h3>
-                            <p>JavaScript</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyect">
-                    <a href="https://aldomf.github.io/calculator-app/">
-                        <img src="img/p33.png" alt="">
-                        <div class="overlay">
-                            <h3>Calculator</h3>
-                            <p>JavaScript</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyect">
-                    <a href="https://aldomf.github.io/CV-ALDO/">
-                        <img src="img/p4.png" alt="">
-                        <div class="overlay">
-                            <h3>CV Simple</h3>
-                            <p>HTML - CSS</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyect">
-                    <img src="img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Design Créatif</h3>
-                        <p>Photographie</p>
-                    </div>
-                </div>
-                <div class="proyect">
-                    <img src="img/p6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Design Créatif</h3>
-                        <p>Photographie</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h1>PORTEFEUILLE</h1>
+        <div class="subcontainer">
+          <div class="proyect one">
+            <a href="https://aldomf.github.io/My-first-e-commerce-site/">
+              <img src="img/p1.jpg" alt="" />
+              <div class="overlay">
+                <h3>E-commerce site</h3>
+                <p>Frontend</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyect">
+            <a href="https://aldomf.github.io/quiz-app/">
+              <img src="img/p2.png" alt="" />
+              <div class="overlay">
+                <h3>Quiz Game</h3>
+                <p>JavaScript</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyect">
+            <a href="https://aldomf.github.io/calculator-app/">
+              <img src="img/p33.png" alt="" />
+              <div class="overlay">
+                <h3>Calculator</h3>
+                <p>JavaScript</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyect">
+            <a href="https://aldomf.github.io/CV-ALDO/">
+              <img src="img/p4.png" alt="" />
+              <div class="overlay">
+                <h3>CV Simple</h3>
+                <p>HTML - CSS</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyect">
+            <a href="https://taskapp-nextjs-mongodb.vercel.app/">
+              <img src="img/p8.jpg" alt="" />
+              <div class="overlay">
+                <h3>Task App</h3>
+                <p>Nextjs</p>
+              </div>
+            </a>
+          </div>
+          <div class="proyect">
+            <img src="img/p6.jpg" alt="" />
+            <div class="overlay">
+              <h3>Design Créatif</h3>
+              <p>Photographie</p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
-        <div class="container">
-            <h1>CONTACT</h1>
-            <div class="subcontainer">
-                <div class="col left">
-                    <form action="/" method="POST">
-                        <input type="text" placeholder="Nom" name="name" required pattern="[a-zA-Z]+">
-                        <input type="tel" placeholder="Numéro de Téléphone" name="phone" required pattern="[0-9]+">
-                        <input type="email" placeholder="Adresse E-mail" name="email" required>
-                        <input type="text" placeholder="Sujet" name="subject">
-                        <textarea  id="" cols="30" rows="10" name="comment" required></textarea>
-                        <div class="button">
-                            <button type="submit">Envoyer<i class="fa-solid fa-paper-plane"></i>
-                                <span class="overlay"></span>
-                            </button> 
-                        </div>
-                    </form>
-                </div>
-                <div class="col right">
-                    <div class="map">
-                        <img src="img/ubicacion.png" alt="">
-                        <div class="frame">
-                            <span><i class="fa-solid fa-location-dot"></i> 19 Place du Béguinage, France</span>
-                            <span><i class="fa-solid fa-mobile-screen"></i> Contactez moi: 06 13 89 08 04</span>
-                            <span><i class="fa-solid fa-envelope"></i> E-mail: alditomiralles3@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1>CONTACT</h1>
+        <div class="subcontainer">
+          <div class="col left">
+            <form action="/" method="POST">
+              <input
+                type="text"
+                placeholder="Nom"
+                name="name"
+                required
+                pattern="[a-zA-Z]+"
+              />
+              <input
+                type="tel"
+                placeholder="Numéro de Téléphone"
+                name="phone"
+                required
+                pattern="[0-9]+"
+              />
+              <input
+                type="email"
+                placeholder="Adresse E-mail"
+                name="email"
+                required
+              />
+              <input type="text" placeholder="Sujet" name="subject" />
+              <textarea
+                id=""
+                cols="30"
+                rows="10"
+                name="comment"
+                required
+              ></textarea>
+              <div class="button">
+                <button type="submit">
+                  Envoyer<i class="fa-solid fa-paper-plane"></i>
+                  <span class="overlay"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col right">
+            <div class="map">
+              <img src="img/ubicacion.png" alt="" />
+              <div class="frame">
+                <span
+                  ><i class="fa-solid fa-location-dot"></i> 19 Place du
+                  Béguinage, France</span
+                >
+                <span
+                  ><i class="fa-solid fa-mobile-screen"></i> Contactez moi: 06
+                  13 89 08 04</span
+                >
+                <span
+                  ><i class="fa-solid fa-envelope"></i> E-mail:
+                  alditomiralles3@gmail.com</span
+                >
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- FOOTER SECTION -->
     <section class="footer">
-        <a href="#home" class="up">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="container">
-            <div class="social-networks">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/aldo-miralles"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://bit.ly/AldoMiralles"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="https://discord.gg/yNbxGZdmxV"><i class="fa-brands fa-discord"></i></a></li>
-                    <li><a href="mailto:alditomiralles3@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-                </ul>
-            </div>
+      <a href="#home" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="container">
+        <div class="social-networks">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/aldo-miralles"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://bit.ly/AldoMiralles"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://discord.gg/yNbxGZdmxV"
+                ><i class="fa-brands fa-discord"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:alditomiralles3@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
     <!-- SUBFOOTER SECTION -->
     <div class="subfooter">
-        <span>Aldo Portfolio 2023</span>
+      <span>Aldo Portfolio 2023</span>
     </div>
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>
